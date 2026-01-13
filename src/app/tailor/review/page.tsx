@@ -149,8 +149,6 @@ export default function ReviewPage() {
                   className={`w-5 h-5 rounded-full flex items-center justify-center text-xs ${
                     stage === 'generating'
                       ? 'bg-primary text-primary-foreground animate-pulse'
-                      : stage === 'complete'
-                      ? 'bg-green-500 text-white'
                       : 'bg-muted text-muted-foreground'
                   }`}
                 >
