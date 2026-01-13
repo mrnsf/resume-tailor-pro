@@ -1,0 +1,193 @@
+%-------------------------
+% MRN — Resume (Jake-style spacing)
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% \usepackage[sfdefault]{sourcesanspro}
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% ATS-friendly
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small #1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in,label={}]\setlength\itemsep{3pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in]\setlength\itemsep{2pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+% RESUME
+%-------------------------------------------
+
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    \textbf{\Huge \scshape Marcus Roberto Nogueira} \\ \vspace{2pt}
+    \small San Francisco, CA $|$ \href{mailto:marcus.nogueira1@gmail.com}{\underline{Email}} $|$
+    \href{https://www.linkedin.com/in/mrnsf/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/marcusnogueira/MRN-Portfolio}{\underline{Github Portfolio}} $|$
+    \href{https://mrnport.xyz}{\underline{Personal Website}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeSubHeadingListStart
+\resumeItem{Detail-oriented \textbf{Quantitative Economics graduate} with hands-on experience in \textbf{budget analysis, accounts payable, financial reporting, and compliance support}. Skilled at translating financial data into clear, actionable insights that strengthen public programs and fiscal accountability.}
+\resumeItem{\textbf{Core strengths:} Excel-based financial analysis and reconciliations; program budgeting and funding documentation; purchase order and contract coordination; policy compliance tracking; concise reporting and written communication for decision support.}
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {San Francisco State University}{San Francisco, CA}
+    {Master of Science in Quantitative Economics (MSQE) --- GPA: 3.93}{May 2025}
+    \resumeItemListStart
+      \resumeItem{Bachelor of Arts in Economics; Minor in International Relations --- GPA: 3.53}
+      \resumeItem{University of Seoul (South Korea) --- Academic exchange}
+    \resumeItemListEnd
+  \resumeSubheading
+    {College of Marin}{Kentfield, CA}
+    {Associate of Arts in Economics; Behavioral \& Social Sciences}{May 2021}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Founder \& Builder}{San Francisco Bay Area}
+    {AQUI (Community Vendors Platform)}{Jun. 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Launched community-first platform connecting customers with local street vendors; \textbf{secured \$7{,}000 in initial funding}.}
+      \resumeItem{Led pilot in San Francisco; managed budgets, reporting, and vendor coordination; produced progress reports and risk logs.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Economic Consultant}{San Francisco, CA}
+    {SF Intl. Arts Festival \& SF Pride}{Apr. 2024 -- Apr. 2025}
+    \resumeItemListStart
+      \resumeItem{Conducted \textbf{economic impact research} to inform \textbf{City funding} decisions; findings supported renewal of municipal support.}
+      \resumeItem{Built \textbf{financial reporting workflows} (R/Python/Excel) and auditable documentation; produced memos and charts for stakeholders.}
+      \resumeItem{Coordinated partner inputs; ensured data and assumptions were \textbf{traceable} for audit and review.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Director of Research \& Insights}{San Francisco, CA}
+    {FAME at San Francisco State University}{Dec. 2024 -- May 2025}
+    \resumeItemListStart
+      \resumeItem{Built analytics systems/dashboards that increased participation by \textbf{35\%+}; implemented standardized reporting cadence.}
+      \resumeItem{Documented processes and QA checks to ensure continuity and compliance.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Bookkeeper}{San Francisco, CA}
+    {Larzul Bookkeeping}{Sep. 2020 -- May 2025}
+    \resumeItemListStart
+      \resumeItem{Managed books for multiple small businesses: \textbf{payroll, reconciliations, financial statements, compliance}.}
+      \resumeItem{Supported \textbf{budget planning}, forecasting, and cash-flow tracking in Excel; improved AP timeliness and vendor tracking.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Sales \& Operations Specialist}{San Francisco, CA}
+    {Apple Inc.}{Oct. 2018 -- Feb. 2023}
+    \resumeItemListStart
+      \resumeItem{Supported high-volume \textbf{operations and inventory control} during product launches; improved process documentation and handoffs.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Development Intern}{San Francisco, CA}
+    {PMI San Francisco Chapter}{Jun. 2024 -- Aug. 2024}
+    \resumeItemListStart
+      \resumeItem{Automated repetitive admin processes (approx. \textbf{25\%} reduction in manual workload); created standardized reporting templates.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS / ANALYTICAL WORK-----------
+\section{Selected Analytical Work}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{SF International Arts Festival Economic Impact Analysis}}{}
+    \resumeItemListStart
+      \resumeItem{Measured direct/indirect local business effects using \textbf{input--output modeling} and multiplier analysis.}
+      \resumeItem{Designed surveys, cleaned data, and produced \textbf{presentation-ready reports} for City stakeholders.}
+    \resumeItemListEnd
+  \resumeProjectHeading{\textbf{Causal Analysis of NYC Congestion Pricing} --- Graduate Capstone (\textit{Best Capstone})}{}
+    \resumeItemListStart
+      \resumeItem{Applied \textbf{Difference-in-Differences} and \textbf{Regression Discontinuity} to evaluate policy effects.}
+      \resumeItem{Produced reproducible documentation and visual summaries in R/Stata.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in,label={}]\small
+  \item \textbf{Financial \& Program Support:} Budget tracking and forecasting; expenditure monitoring; purchase orders and contracts; grant and compliance reporting; funding plan creation; year-end close and reconciliation support.
+  \item \textbf{Analytical Tools \& Reporting:} Advanced Excel (pivot tables, lookups, dashboards); R and SQL for data analysis; Python for automation; reproducible workpapers and audit documentation.
+  \item \textbf{Operations \& Communication:} Process improvement and mapping; cross-team coordination; stakeholder reporting; clear and concise memo, presentation, and policy writing.
+\end{itemize}
+
+\end{document}

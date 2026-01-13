@@ -1,0 +1,141 @@
+{
+  "project": "Resume Tailor Pro",
+  "version": "1.0.0",
+  "stories": [
+    {
+      "id": "story-001",
+      "title": "Project Setup",
+      "description": "Initialize Next.js project with TypeScript, Tailwind, and all dependencies",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-002",
+      "title": "Type Definitions",
+      "description": "Create TypeScript interfaces for Master Profile, TailorChange, JobSignals, etc.",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-003",
+      "title": "Zustand Store",
+      "description": "Implement profile store with localStorage persistence",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-004",
+      "title": "UI Components",
+      "description": "Create shadcn/ui style components: Button, Input, Card, Label, Progress, Textarea",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-005",
+      "title": "App Layout",
+      "description": "Create root layout with global styles and theming",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-006",
+      "title": "Onboarding - Personal Info",
+      "description": "Create personal information step with form validation",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-007",
+      "title": "Onboarding - Experience",
+      "description": "Create work experience step with add/edit/delete functionality",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-008",
+      "title": "Onboarding - Education",
+      "description": "Create education step with form handling",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-009",
+      "title": "Onboarding - Skills",
+      "description": "Create skills step with category management",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-010",
+      "title": "Onboarding - Certifications",
+      "description": "Create certifications step (optional)",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-011",
+      "title": "Onboarding - Projects",
+      "description": "Create projects step and finish onboarding",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-012",
+      "title": "Dashboard",
+      "description": "Create dashboard with profile summary, stats, and tailor CTA",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-013",
+      "title": "DeepSeek Integration",
+      "description": "Implement DeepSeek API client for AI tailoring",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-014",
+      "title": "Tailoring Service",
+      "description": "Create tailoring logic: extract signals, generate changes, create LaTeX",
+      "status": "complete",
+      "priority": 1
+    },
+    {
+      "id": "story-015",
+      "title": "Job Input Page",
+      "description": "Create page for pasting job description and setting options",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-016",
+      "title": "Review Page",
+      "description": "Create page for reviewing and accepting/rejecting changes",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-017",
+      "title": "Export Page",
+      "description": "Create page for downloading LaTeX and cover letter",
+      "status": "complete",
+      "priority": 2
+    },
+    {
+      "id": "story-018",
+      "title": "Testing & Polish",
+      "description": "Test all flows, fix bugs, improve UX",
+      "status": "pending",
+      "priority": 3
+    },
+    {
+      "id": "story-019",
+      "title": "GitHub Repository",
+      "description": "Initialize git, create repository, push code",
+      "status": "in_progress",
+      "priority": 1
+    }
+  ],
+  "completedCount": 17,
+  "totalCount": 19
+}
